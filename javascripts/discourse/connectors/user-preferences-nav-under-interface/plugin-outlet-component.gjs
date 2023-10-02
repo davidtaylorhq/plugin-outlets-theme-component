@@ -1,0 +1,8 @@
+import PluginOutletConnectorComponent from "../../components/plugin-outlet-connector-component";
+<template>
+  <PluginOutletConnectorComponent @name="user-preferences-nav-under-interface">&lt;PluginOutlet
+      @name="user-preferences-nav-under-interface"
+      @connectorTagName="div"
+      @outletArgs=&lcub;&lcub;hash model=this.model&rcub;&rcub;
+    /&gt;</PluginOutletConnectorComponent>
+</template>
